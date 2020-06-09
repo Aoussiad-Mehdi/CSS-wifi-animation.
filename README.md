@@ -3,7 +3,3 @@ CSS wifi animation : Just a simple css animation, it's an animated wifi image cr
 Created by Mehdi Aoussiad.
 #see it live : https://codepen.io/MehdiAoussiad/full/QWyybMO
 
-1
-
-3
-
