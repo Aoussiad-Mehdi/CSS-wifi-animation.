@@ -8,6 +8,7 @@ body{
     width: 100%;
     min-height: 100vh;
 }
+/* flexbox to center the elements */
 .container{
     width: 100%;
     min-height: 100vh;
@@ -23,12 +24,12 @@ h1{
     text-transform: uppercase;
     text-shadow: 3px 2px  rgb(30, 182, 81);
 }
+/* we used this div to center the items */
 .wifi{
     width: 100px;
-    height: 200px;
-    
+    height: 200px;  
 }
-
+/* the wifi bars */
 .bar-1{
     width: 100px;
     height: 70px;
@@ -71,6 +72,7 @@ h1{
     animation-delay: 1s;
     animation-duration: .4s;
 }
+/* The animation process */
 @keyframes anime1{
     0%{
         border-bottom: 9px solid white;
