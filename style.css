@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(31, 29, 29);
+    width: 100%;
+    min-height: 100vh;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 3px 2px  rgb(30, 182, 81);
+}
+.wifi{
+    width: 100px;
+    height: 200px;
+    
+}
+
+.bar-1{
+    width: 100px;
+    height: 70px;
+    border-bottom: 9px solid white;
+    border-radius: 70%;
+    animation: anime1 4s infinite;
+    animation-delay: 2.8s;
+    animation-duration: .4s;
+}
+.bar-2{
+    width: 80px;
+    height: 50px;
+    border-bottom: 7px solid white;
+    border-radius: 60%;
+    margin: -30px 0;
+    margin-left: 10px;
+    animation: anime2 4s infinite;
+    animation-delay: 2s;
+    animation-duration: .4s;
+}
+.bar-3{
+    width: 50px;
+    height: 40px;
+    border-bottom: 6px solid white;
+    border-radius: 50%;
+    margin: 10px 0;
+    margin-left: 25px;
+    animation: anime3 4s infinite;
+    animation-delay: 1.5s;
+    animation-duration: .4s;
+}
+.bar-4{
+    width: 30px;
+    height: 20px;
+    border-bottom: 5px solid white;
+    border-radius: 50%;
+    margin: -15px 0;
+    margin-left: 35px;
+    animation: anime4 4s infinite;
+    animation-delay: 1s;
+    animation-duration: .4s;
+}
+@keyframes anime1{
+    0%{
+        border-bottom: 9px solid white;
+    }
+    50%{
+        border-bottom: 9px solid rgb(30, 182, 81);
+    }
+}
+@keyframes anime2{
+    0%{
+        border-bottom: 7px solid white;
+    }
+    50%{
+        border-bottom: 7px solid rgb(30, 182, 81);
+    }
+}
+@keyframes anime3{
+    0%{
+        border-bottom: 6px solid white;
+    }
+    50%{
+        border-bottom: 6px solid rgb(30, 182, 81);
+    }
+}
+
+@keyframes anime4{
+    0%{
+        border-bottom: 5px solid white;
+    }
+    50%{
+        border-bottom: 5px solid rgb(30, 182, 81);
+    }
+}
